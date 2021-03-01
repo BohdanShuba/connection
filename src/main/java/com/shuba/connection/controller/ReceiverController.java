@@ -10,6 +10,7 @@ public class ReceiverController {
 
     @GetMapping("/ch")
     public String connectToIp() {
+        //test remote
         return "connect success";
     }
 }
